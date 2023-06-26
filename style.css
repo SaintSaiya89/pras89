@@ -1,0 +1,184 @@
+:root {
+  --primary: #ad5827;
+  --bg: #010101;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #010101;
+  color: #ffff;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+}
+.navbar .title {
+  font-size: 2rem;
+  padding: 10px;
+  margin-left: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #ac6828;
+}
+.tabs {
+  margin-right: 5rem;
+}
+.tab {
+  color: #ffff;
+}
+.tab:hover {
+  background-color: aqua;
+  color: #010101;
+}
+.tabs .tab:active {
+  background-color: aqua;
+  color: #010101;
+}
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=878&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.hero h1 {
+  color: #ac6828;
+  margin-bottom: 2rem;
+}
+.hero h1 span {
+  color: #ffff;
+}
+.hero p {
+  color: #010101;
+  mix-blend-mode: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.about {
+  margin-top: 2rem;
+}
+.about .title {
+  color: #ac6828;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: oblique;
+  margin-bottom: 2rem;
+}
+.menu {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.menu h2 {
+  color: #ac6828;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: oblique;
+  margin-bottom: 2rem;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 20px;
+  max-width: 300px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card-content p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contact {
+  padding: 7rem 7% 1.4rem;
+}
+.contact h2 {
+  color: #ac6828;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: oblique;
+  margin-bottom: 2rem;
+}
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.contact .row {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #222;
+}
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.contact .row form .input-grup {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: var(--bg);
+  border: 1px solid #eee;
+  padding-left: 2rem;
+}
+.contact .row form .input-grup input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #fff;
+}
